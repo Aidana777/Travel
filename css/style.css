@@ -101,7 +101,26 @@ a {
     width: 360px;
     height: 500px;
     box-shadow: 0px 6px 35px 0px #00000014;
+}
 
+.card :hover {
+    animation: moveInRight 1s ease-in;
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .card img {
@@ -109,6 +128,7 @@ a {
     height: 331px;
 
 }
+
 
 .card h3 {
     display: flex;
@@ -131,6 +151,19 @@ a {
 .texts-location {
     padding-top: 140px;
     text-align: center;
+}
+
+.texts-location:hover {
+    animation: flip 2s infinite;
+    animation-delay: calc(.5s * var(--i))
+}
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
 }
 
 .texts-location h2 {
@@ -185,6 +218,32 @@ a {
 .card_img {
     width: 262px;
     height: 173px;
+}
+
+.card_img:hover {
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 1s linear 0s normal none infinite running rot;
+    width: 100px;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .content {
@@ -243,6 +302,24 @@ a {
 
 }
 
+.texts-blog:hover {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
 .texts-blog h2 {
     width: 374px;
     height: 60px;
@@ -275,7 +352,6 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
-
     margin-top: 10px;
 
 }
@@ -289,8 +365,8 @@ a {
     width: 263px;
     height: 201px;
     border-radius: 10px;
-
 }
+
 
 .trave_place h3 {
     font-style: normal;
@@ -301,6 +377,20 @@ a {
     height: 32px;
     color: #000000;
     margin-top: 35px;
+}
+
+.trave_place:hover {
+    animation: flipV 1s linear;
+}
+
+@keyframes flipV {
+    50% {
+        transform: rotateX(180deg);
+    }
+
+    to% {
+        transform: rotateX(360deg);
+    }
 }
 
 .trave_place p {
@@ -339,7 +429,20 @@ a {
     font-size: 20px;
     line-height: 150%;
     margin-top: 10px;
+}
 
+.cart:hover {
+    animation: fedeIn 3s;
+}
+
+@keyframes fedeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .card h3 {
@@ -444,14 +547,14 @@ a {
 }
 
 .footer_btn {
-    margin-left: 25px;
+    margin-left: 35px;
     padding: 10px 32px;
 }
 
-.social{
+.social {
     margin-top: 20px;
 }
 
-.social img{
+.social img {
     margin-right: 30px;
 }
