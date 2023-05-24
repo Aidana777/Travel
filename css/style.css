@@ -44,8 +44,7 @@ a {
 
 .header__btn {
     margin-left: 172px;
-    height: 51px;
-    width: 163px;
+    padding: 10px 14px;
     border-radius: 5px;
 
 
@@ -83,8 +82,7 @@ a {
 }
 
 .btn-text {
-    width: 187px;
-    height: 59px;
+    padding: 10px 14px;
     margin-top: 30px;
 }
 
@@ -176,26 +174,102 @@ a {
     grid-template-columns: repeat(5, 300px);
     align-items: center;
     justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+
 }
-.block{
+
+.block {
     display: grid;
     justify-content: center;
-    align-items: center;
+    width: 350px;
+    height: 300px;
+    gap: 10px;
 }
 
 .card_img {
     width: 262px;
     height: 173px;
 }
-.content{
+
+.content {
     display: flex;
-}
-.place{
-    display: flex;
-    justify-content: space-between;
+    width: 340px;
     align-items: center;
-   
+
+}
+
+.content img {
+    padding-right: 10px;
+
+}
+
+.place {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    padding-right: 50px;
+    opacity: 0.6;
+}
+
+.rating {
+    margin-top: 5px;
+}
+
+.days {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    color: #000000;
+    opacity: 0.6;
+}
+
+.price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: linear-gradient(0deg, #000000, #000000),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+
+}
+
+.texts-blog {
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.texts-blog h2 {
+    width: 374px;
+    height: 60px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+}
+
+.texts-blog p {
+    width: 581px;
+    height: 58px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    color: #000000;
+    opacity: 0.6;
 }
