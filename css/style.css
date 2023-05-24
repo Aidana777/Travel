@@ -107,7 +107,7 @@ a {
 .card img {
     width: 360px;
     height: 331px;
-    margin-bottom: 35px;
+
 }
 
 .card h3 {
@@ -123,14 +123,9 @@ a {
 .card p {
     width: 306px;
     height: 55px;
-    margin: 0 auto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
+    display: flex;
     text-align: center;
-    color: #000000;
-    opacity: 0.6;
+    margin-right: 50px;
 }
 
 .texts-location {
@@ -276,6 +271,13 @@ a {
 
 .trave_place a {
     color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+    margin-top: 10px;
+
 }
 
 .box_blog {
@@ -286,8 +288,170 @@ a {
 .colum_card img {
     width: 263px;
     height: 201px;
+    border-radius: 10px;
+
 }
-.text_card{
+
+.trave_place h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    width: 271px;
+    height: 32px;
+    color: #000000;
+    margin-top: 35px;
+}
+
+.trave_place p {
+    width: 470px;
+    height: 151px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    opacity: 0.6;
+    margin-top: 10px;
+
+}
+
+.colum_card {
+    margin-left: 32px;
+}
+
+.text_card {
+    float: right;
+    width: 262px;
+    height: 201px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.text_card a {
+    color: #000;
+}
+
+.cart {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: 10px;
+
+}
+
+.card h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.card p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    padding-top: 10px;
+    color: #000000;
+    float: right;
+    width: 244px;
+    height: 60px;
+    opacity: 0.6;
+}
+
+.footer {
+    margin-top: 200px;
+    background: #2694990A;
+
+}
+
+.foot {
+    padding-top: 70px;
     display: flex;
-    flex-direction: row;
+
+    width: 1500px;
+}
+
+.footer-item a {
+    color: #000000;
+
+}
+
+.footer-menu {
+    margin-left: 169px;
+}
+
+.footer-second {
+    margin-left: 127px;
+}
+
+.form {
+    margin-left: 248px;
+}
+
+.footer-item {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+}
+
+.contact {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    width: 86px;
+    height: 26px;
+    margin-top: 40px;
+    color: #000000;
+}
+
+.email {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+
+.form h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 42px;
+}
+
+.form input {
+    width: 195px;
+    height: 44px;
+    border: 1px solid #000000;
+    background: rgba(38, 148, 153, 0.04);
+    padding: 20px;
+    color: #000000;
+
+}
+
+.footer_btn {
+    margin-left: 35px;
+    padding: 10px 32px;
+}
+
+.social{
+    margin-top: 20px;
+}
+
+.social img{
+    margin-right: 30px;
 }
