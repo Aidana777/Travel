@@ -273,3 +273,21 @@ a {
     color: #000000;
     opacity: 0.6;
 }
+
+.trave_place a {
+    color: #000000;
+}
+
+.box_blog {
+    display: flex;
+    margin-top: 56px;
+}
+
+.colum_card img {
+    width: 263px;
+    height: 201px;
+}
+.text_card{
+    display: flex;
+    flex-direction: row;
+}
