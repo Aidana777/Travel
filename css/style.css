@@ -507,7 +507,7 @@ a {
 
 }
 
-.contact {
+.contact a {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -518,12 +518,13 @@ a {
     color: #000000;
 }
 
-.email {
+.email a {
     margin-top: 10px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
+    color: #000000;
 }
 
 
